@@ -2,14 +2,16 @@
 
 **Italy, drawn like a strategy game.** Every hex, city and number comes from Italian public data (ISTAT, Il Sole 24 Ore "Qualità della vita", Natural Earth, UNESCO and others, listed in the in-app Almanac under *Sources*).
 
-This is an experiment in using **Claude Opus 5.5** (Anthropic): starting from the code that [Andrej Karpathy](https://karpathy.ai) released for [usaciv](https://karpathy.ai/usaciv), Claude adapted the project to Italy: new data pipeline, provinces as cities, Italian regions, and an Italian/English interface (switch IT | EN in the top bar, or add `?lang=en` to the address).
+This is an experiment in using **Claude Opus 5.5** (Anthropic): starting from the code that [Andrej Karpathy](https://karpathy.ai) released for [usaciv](https://karpathy.ai/usaciv), Claude adapted the project to Italy, with minimal human intervention: new data pipeline, provinces as cities, Italian regions, and an Italian/English interface (switch IT | EN in the top bar, or add `?lang=en` to the address). It is, above all, a test of the model's representational abilities: how far it can go in turning public data into a readable, playful map.
 
 ## Disclaimer
+
+**This is a divertissement, not an analysis tool.** The map is meant to be explored and enjoyed, not used to draw conclusions, compare places or make decisions.
 
 This is an experiment, provided **as is**, without warranty of any kind.
 - The data come from third-party public sources and may contain errors, be outdated or be processed imperfectly. Some elements (for example land cover and site locations) are estimates or placed by hand, as noted in the app.
 - Nothing here is official statistics or advice of any kind: check the original sources before relying on any figure.
-- This is a my personal side project, it is not affiliated with or endorsed by Andrej Karpathy, Anthropic, ISTAT or any data provider.
+- This project is not affiliated with or endorsed by Andrej Karpathy, Anthropic, ISTAT or any data provider.
 
 ## License
 

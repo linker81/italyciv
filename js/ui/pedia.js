@@ -31,6 +31,7 @@ export function initPedia(data) {
       <p>Questa è l'Italia vera, disegnata come un gioco di strategia. Ogni esagono, città e numero viene da dati pubblici,
       elencati in <i>Fonti</i>. Le poche cose stimate o scelte a mano sono dichiarate dove compaiono.</p>
       <p>È un adattamento all'Italia di <i>usaciv</i> di Andrej Karpathy, la stessa idea applicata agli Stati Uniti.</p>
+      <p><b>È un divertissement, non uno strumento di analisi.</b> È nato come test delle capacità di rappresentazione di Claude Opus 5.5, con un intervento umano minimo: la mappa è da esplorare, non da usare per trarre conclusioni, confrontare luoghi o prendere decisioni.</p>
       <h4>Come è costruita</h4>
       <p>L'Italia è proiettata (conica equivalente di Albers, paralleli standard 38° e 46° N) e divisa in
       ${data.world.grid.cols}×${data.world.grid.rows} esagoni, ognuno di ${data.world.grid.radius * 2} km da vertice a vertice
@@ -141,6 +142,7 @@ export function initPedia(data) {
       <p>This is the real Italy, drawn like a strategy game. Every hex, city and number comes from public data, listed
       under <i>Sources</i>. The few things that are estimated or picked by hand are said so where they appear.</p>
       <p>It is an adaptation to Italy of Andrej Karpathy's <i>usaciv</i>, the same idea applied to the United States.</p>
+      <p><b>This is a divertissement, not an analysis tool.</b> It began as a test of the representational abilities of Claude Opus 5.5, with minimal human intervention: the map is meant to be explored, not used to draw conclusions, compare places or make decisions.</p>
       <h4>How it's built</h4>
       <p>Italy is projected (Albers equal-area conic, standard parallels 38° and 46° N) and cut into
       ${data.world.grid.cols}×${data.world.grid.rows} hexes, each ${data.world.grid.radius * 2} km corner to corner

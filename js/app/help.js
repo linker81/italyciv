@@ -65,9 +65,9 @@ export function initHelp() {
       </section>`).join("")}</div>
     <p class="help-foot">${t(`Ogni numero risale a dati pubblici: apri l'<b>Almanacco</b> per le fonti.
       Il link nella barra degli indirizzi riapre sempre esattamente questa vista.
-      Codice sorgente: <a href="italiaciv-source.zip" download>italiaciv-source.zip</a> (MIT; adattamento all'Italia di usaciv di Andrej Karpathy, vedi il README).`, `Every number traces back to public data: open the <b>Almanac</b> for sources.
+      Codice sorgente: <a href="https://github.com/linker81/italyciv/">italiaciv</a> (MIT; adattamento all'Italia di usaciv di Andrej Karpathy, vedi il README).`, `Every number traces back to public data: open the <b>Almanac</b> for sources.
       The link in the address bar always reopens this exact view.
-      Source code: <a href="italiaciv-source.zip" download>italiaciv-source.zip</a> (MIT; an adaptation to Italy of Andrej Karpathy's usaciv, see its README).`)}</p>`;
+      Source code:<a href="https://github.com/linker81/italyciv/">italiaciv</a> (MIT; an adaptation to Italy of Andrej Karpathy's usaciv, see its README).`)}</p>`;
 
   const close = () => {
     if (modal.hidden) return;
