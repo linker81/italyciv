@@ -11,7 +11,7 @@ This is an experiment in using **Claude Opus 5.5** (Anthropic): starting from th
 This is an experiment, provided **as is**, without warranty of any kind.
 - The data come from third-party public sources and may contain errors, be outdated or be processed imperfectly. Some elements (for example land cover and site locations) are estimates or placed by hand, as noted in the app.
 - Nothing here is official statistics or advice of any kind: check the original sources before relying on any figure.
-- This project is not affiliated with or endorsed by Andrej Karpathy, Anthropic, ISTAT or any data provider.
+- This is a my personal side project, it is not affiliated with or endorsed by Andrej Karpathy, Anthropic, ISTAT or any data provider.
 
 ## License
 
